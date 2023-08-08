@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(68.15deg, #6f21ff 16.62%, #2142ff 85.61%);
+  }
+  
+  .container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 500px; /* Adicionando a propriedade width para criar uma caixa quadrada */
+  border: 3px solid #09017a76;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: auto;
+  }
+.entradas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Defina a mesma altura do container para ocupar o espaço restante */  
+  color: white;
+}  
+.bloco {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.entrada {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction:column;
+    padding: 50px;
+
+  }
+  .sorteio {
+  margin: auto;
+  
+  color: white;
+  font-size: 24px;
+  }
+
+
+    
+
+
